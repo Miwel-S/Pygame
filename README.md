@@ -40,6 +40,7 @@ El juego avanza automáticamente entre niveles:
 ---
 
 ## 📂 Estructura del Proyecto
+```bash
 .
 ├── main.py # Menú principal y controlador de niveles
 ├── laberinto1.py # Nivel 1
@@ -49,7 +50,7 @@ El juego avanza automáticamente entre niveles:
 ├── timer_global.py # Temporizador global usando threading
 ├── assets/ # (Opcional) imágenes, sonidos, fuentes
 └── README.md # Este archivo
-
+```
 ---
 
 ## 🚀 Instalación
