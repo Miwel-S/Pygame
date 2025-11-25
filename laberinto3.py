@@ -3,7 +3,7 @@ import sys
 from timer_global import obtener_tiempo, tiempo_terminado
 
 # Dimensiones de la ventana
-ANCHO, ALTO = 1000, 1000
+ANCHO, ALTO = 800, 800
 
 # Colores
 NEGRO = (0, 0, 0)
@@ -13,7 +13,7 @@ AMARILLO = (255, 255, 0)
 VERDE= (0, 255, 0)
 ROJO = (255, 0, 0)
 
-TAM = 50  # tamaño de cada casilla
+TAM =40  # tamaño de cada casilla
 # -------------------------------------------------------------------------
 # 🧱 MAPA DEL LABERINTO
 # 0 = vacío / pasillo

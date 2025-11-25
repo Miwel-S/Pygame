@@ -4,7 +4,7 @@ from timer_global import obtener_tiempo, tiempo_terminado, tiempo_restante
 import timer_global
 
 # Dimensiones de la ventana
-ANCHO, ALTO = 1250, 1000
+ANCHO, ALTO = 1000, 800
 
 # Colores
 NEGRO = (0, 0, 0)
@@ -14,7 +14,7 @@ AMARILLO = (255, 255, 0)
 VERDE= (0, 255, 0)
 ROJO = (255, 0, 0)
 
-TAM = 50  # tamaño de cada casilla
+TAM = 40  # tamaño de cada casilla
 # -------------------------------------------------------------------------
 # 🧱 MAPA DEL LABERINTO
 # 0 = vacío / pasillo
@@ -56,7 +56,7 @@ enemigo1 = {
 
 enemigo2 = {
     "x": 15,
-    "y": 10,
+    "y": 15,
     "velocidad": 2,  # frames para moverse
     "contador": 0
 }
