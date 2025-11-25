@@ -1,5 +1,6 @@
 import pygame
 import sys
+import os
 from timer_global import obtener_tiempo, tiempo_terminado
 
 # Dimensiones ventana
@@ -105,6 +106,8 @@ def nivel_1():
     global jugador_x, jugador_y
     jugador_x, jugador_y = 1, 1  # reiniciar
     
+    os.environ['SDL_VIDEO_WINDOW_POS'] = "500,30"
+
     pygame.init() #Inicializar pygame
     global PANTALLA, RELOJ, FUENTE
     PANTALLA = pygame.display.set_mode((ANCHO, ALTO))
@@ -153,3 +156,5 @@ def nivel_1():
 
         pygame.display.flip()
         RELOJ.tick(10)
+
+nivel_1()
